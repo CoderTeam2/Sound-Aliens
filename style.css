@@ -1,0 +1,30 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: palegreen;
+}
+.heading{
+    background-color: plum;
+    font-family: fantasy;
+    line-height: 5;
+    letter-spacing: 2;
+}
+img{
+    width: 300px;
+    height: 298px;
+    transition: transform .2s;
+    border: 2px solid black;
+}
+img:hover{
+    transform: scale(1.25);
+}
+#foot{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    font-size: 25px;
+    background-color: #33cc33;
+    text-shadow: 2px 2px 1px black;
+}
+.l{
+    font-size: 25px;
+}

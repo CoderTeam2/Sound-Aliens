@@ -1,0 +1,50 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <center>
+        <div class="heading">
+          <h1>Sound Controlled Aliens</h1>
+          <h4>Note: This webpage can be used to identify sounds like Clap, Click and Buzz, according to the sounds the aliens will move!</h4>
+        </div>
+        <button class="btn btn-warning" onclick="recordSound()">Start Button</button><br><br>
+
+        <div class="labels">
+          <h4 class="l" id="random">The sound detected is : <span id="result"></span></h4>
+          <h4 class="l" id="random">The accuracy level is : <span id="accuracy"></span></h4>
+        <br><br>
+          <img src="aliens-01.png" id="img1" class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+          <img src="aliens-02.png" id="img2" class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+          <img src="aliens-03.png" id="img3" class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+          <img src="aliens-04.png" id="img4" class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        </div>
+      </center>
+    </div>
+  <center>
+    <h4 id="foot">
+      © Aman Gupta
+    </h4>
+  </center>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
